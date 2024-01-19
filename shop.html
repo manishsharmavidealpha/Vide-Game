@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NextGenerationDev">
+    <title>Blackjack - Online Casino, Gambling & Betting HTML Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flip.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== mouce area start here ========== -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- ========== mouce area end here ========== -->
+
+    <!-- ========== preloader area start here ========== -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== preloader area end here ========== -->
+
+    <!-- menu area start here -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrp">
+                    <ul class="link-info">
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-solid fa-rss"></i></a></li>
+                    </ul>
+                    <ul class="info">
+                        <li><i class="fa-solid fa-lock"></i> <a href="#0">Safe & Secure</a></li>
+                        <li><i class="fa-solid fa-headset"></i> <a href="contact.html">Support 24/7</a></li>
+                        <li class="pe-0"><i class="fa-solid fa-user"></i> <a href="login.html">Login</a> <span>/</span>
+                            <a href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo-menu">
+                        <a href="index-2.html" class="logo">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header-bar d-xl-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-btn-wrapper"></div>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="index-2.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="tournament.html">Tournament</a>
+                        </li>
+                        <li>
+                            <a href="#">Games <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="game.html">All Games</a></li>
+                                <li><a href="game2.html">Popular Games</a></li>
+                                <li><a href="game3.html">Latest Games</a></li>
+                                <li><a href="game4.html">Recommended Games</a></li>
+                                <li><a href="game5.html">Upcoming Games</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="team.html">Dealer</a></li>
+                                <li><a href="team-single.html">Dealer Single</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="faq.html">FQA</a></li>
+                                <li><a href="error-404.html">404 Error</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Shop <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop Page</a></li>
+                                <li><a href="shop-single.html">Shop Single</a></li>
+                                <li><a href="checkout.html">Checkout Page</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">blog <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-0">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <div class="cart-search d-flex align-items-center">
+                            <a href="#" class="search-trigger"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="icon-wrp">
+                                <a href="#" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="cart-menu-item">
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm1.png" alt="image">
+                                        <div class="product-price-menu">$12.99</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x heading-color color-hover"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm2.png" alt="image">
+                                        <div class="product-price-menu">$50.00</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x color-hover heading-color"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm3.png" alt="image">
+                                        <div class="product-price-menu">$44.99</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x color-hover heading-color"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <span class="float-end p-3 sm-font">Total Order = $102.99</span>
+                                    <div class="btn-wrp">
+                                        <a class="checkout-btn" href="checkout.html">
+                                            Check Out
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- menu area end here -->
+
+    <!-- fullscreen search bar area start here -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Type & Hit Enter">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- fullscreen search bar area end here -->
+
+    <!-- ========== inner banner area start here ========== -->
+    <section class="inner-banner">
+        <div class="container">
+            <div class="content">
+                <h2>Shop Page</h2>
+                <div class="breadcrumb-list">
+                    <span><a href="index-2.html" class="primary-hover">Home</a></span>
+                    <span class="fw-bold">/</span>
+                    <span class="primary-color">Shop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== inner banner area end here ========== -->
+
+    <!-- ========== shop page area start here ========== -->
+    <section class="shop-page section-padding sub-bg">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="shop-item">
+                        <div
+                            class="top-bar mb-4 d-flex flex-wrap justify-content-between align-items-center main-bg radius10 px-4 py-3">
+                            <span>Showing 1–12 of 15 results</span>
+                            <select name="select" id="select">
+                                <option value="select">Short by latest</option>
+                                <option value="select">Short by Ubdate</option>
+                                <option value="select">Short by New</option>
+                            </select>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/1.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Essential
+                                            Cotton</a></h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/2.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Comfort Fit</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/3.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Modern
+                                            Minimalist</a></h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/4.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Tie-Dye Twist</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/5.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Timeless
+                                            Tradition</a></h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/6.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Classic Crew</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/7.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Soft Touch Tee</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/8.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Lounge Luxe</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/9.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Playful
+                                            Patterns</a></h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/10.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Fierce Flames</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/11.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Nature's Call</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-5 col-sm-5">
+                                <div class="product-item">
+                                    <div class="image-wrp">
+                                        <div class="img">
+                                            <img class="radius10" src="assets/images/shop/12.jpg" alt="imaeg">
+                                            <div class="product-icon">
+                                                <a href="#0" class="icon"><i class="fa-regular fa-eye"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                                <a href="#0" class="icon"><i class="fa-solid fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="star d-flex pt-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <h3 class="py-1"><a href="shop-single.html" class="primary-color">Urban Cool</a>
+                                    </h3>
+                                    <span class="fw-bold">$299 - $599</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Custom-pagination text-center mt-50">
+                        <a href="#0"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href="#0">1</a>
+                        <a href="#0" class="active">2</a>
+                        <a href="#0">3</a>
+                        <a href="#0"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-single">
+                        <div class="item">
+                            <div class="right-item-wrp">
+                                <div class="right-item px-4 py-3 mb-4">
+                                    <form>
+                                        <input class="py-2 radius10 px-4 bg-transparent bor text-white d-block w-100"
+                                            type="text" placeholder="Search here..">
+                                        <button class="main-bg"><i class="fas secondary-hover fa-search"></i></button>
+                                    </form>
+                                </div>
+                                <div class="p-4 right-item mb-4 main-bg radius10">
+                                    <h3 class="title">Price Filter</h3>
+                                    <input type="range" id="price-range" min="0" max="599" value="499">
+                                    <span class="fw-bold pt-2">$0 -</span> <span class="pt-2 fw-bold"
+                                        id="price-display">$499</span>
+
+                                </div>
+                                <div class="right-item p-4 mb-4">
+                                    <h3 class="title">Categores</h3>
+                                    <ul class="categores">
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Soft Touch
+                                                    Tee</span></a>
+                                            <span class="number">(09)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Classic
+                                                    Crew</span></a>
+                                            <span class="number">(28)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Timeless
+                                                    Tradition</span></a>
+                                            <span class="number">(07)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Essential
+                                                    Cotton</span></a>
+                                            <span class="number">(17)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Modern
+                                                    Minimalist</span></a>
+                                            <span class="number">(05)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Striped
+                                                    Sensation</span></a>
+                                            <span class="number">(14)</span>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="py-2 d-block"><span
+                                                    class="category-title primary-color"><i
+                                                        class="fa-solid pe-1 fa-angles-right"></i> Fashion
+                                                    Forward</span></a>
+                                            <span class="number">(02)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="right-item p-4 mb-4">
+                                    <h3 class="title">Popular Products</h3>
+                                    <ul class="blog-post">
+                                        <li class="d-flex align-items-center">
+                                            <a href="shop-single.html"><img class="radius10"
+                                                    src="assets/images/shop/sm1.png" alt="image"></a>
+                                            <div class="con ps-3">
+                                                <h4><a href="shop-single.html" class="secondary-hover">Comfort Fit</a>
+                                                </h4>
+                                                <span>$99.00 - $399</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <a href="shop-single.html"><img class="radius10"
+                                                    src="assets/images/shop/sm2.png" alt="image"></a>
+                                            <div class="con ps-3">
+                                                <h4><a href="shop-single.html" class="secondary-hover">Essential
+                                                        Cotton</a>
+                                                </h4>
+                                                <span>$99.00 - $399</span>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <a href="shop-single.html"><img class="radius10"
+                                                    src="assets/images/shop/sm3.png" alt="image"></a>
+                                            <div class="con ps-3">
+                                                <h4><a href="shop-single.html" class="secondary-hover">Soft Touch
+                                                        Tee</a>
+                                                </h4>
+                                                <span>$99.00 - $399</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="right-item ad p-4 mb-4">
+                                    <h3 class="title">Hot Items</h3>
+                                    <div class="swiper blog-single-slide">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="img">
+                                                    <img src="assets/images/shop/1.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img">
+                                                    <img src="assets/images/shop/2.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="img">
+                                                    <img src="assets/images/shop/3.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== shop page area end here ========== -->
+
+    <!-- ========== info area start here ========== -->
+    <div class="info">
+        <div class="container">
+            <div class="item-wrp">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/call.png" alt="icon">
+                            <span>Call Now : +0123 456 789</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/mail.png" alt="icon">
+                            <span>Mail Us : example@example.com</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/location.png" alt="icon">
+                            <span>Our Location : New Rose Valley Park, NYZ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== info area end here ========== -->
+
+    <!-- ========== footer area start here ========== -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="section-padding">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="item me-5 pe-3">
+                            <div class="title">
+                                <h4>About Us</h4>
+                            </div>
+                            <p class="text-justify">One of the biggest advantages of online casinos is the wide
+                                range of
+                                games they offer many type of
+                                casinos games may have a limited selection games the main parpose due to space
+                                constraints
+                            </p>
+                            <div class="follow pt-3">
+                                <span class="gradient-font">Follow :</span>
+                                <a href="#0"><img src="assets/images/icon/facebook.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/twiter.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/instagram.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/linkdin.png" alt="facebook"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3">
+                        <div class="item">
+                            <div class="title">
+                                <h4>Quick Links</h4>
+                            </div>
+                            <ul class="link">
+                                <li><a href="#0">About Us</a></li>
+                                <li><a href="#0">Casino Games</a></li>
+                                <li><a href="#0">Tournaments</a></li>
+                                <li><a href="#0">Questions</a></li>
+                                <li><a href="#0">Recent Post</a></li>
+                                <li><a href="#0">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3">
+                        <div class="item">
+                            <div class="title">
+                                <h4>SUPPORTS</h4>
+                            </div>
+                            <ul class="link">
+                                <li><a href="#0">Game Settings</a></li>
+                                <li><a href="#0">Get the App</a></li>
+                                <li><a href="#0">Help & Support</a></li>
+                                <li><a href="#0">Accessibility</a></li>
+                                <li><a href="#0">Help Center 24/7</a></li>
+                                <li><a href="#0">Privacy & Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="item">
+                            <div class="title">
+                                <h4>NEWSLETTER</h4>
+                            </div>
+                            <p class="text-justify">Subscribe our online casino platfrom newsletter to get our
+                                latest
+                                update
+                                & news consectetur casinos have become a popular form of entertainment for people
+                                all
+                                over
+                                the world platforms offer a wide range of games
+                            </p>
+                            <div class="neswsletter mt-3">
+                                <input type="email" placeholder="Insert Your Email Address">
+                                <button><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text d-flex justify-content-between align-items-center">
+                <p>© 2023 - ALL RIGHTS RESERVED BY <a href="#0" class="primary-color">NEXTGENERATIONDEV</a></p>
+                <img src="assets/images/icon/payment.png" alt="payment">
+            </div>
+        </div>
+    </footer>
+    <!-- ========== footer area end here ========== -->
+
+    <!-- ========== back to top area start here ========== -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- ========== back to top area end here ========== -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/flip.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

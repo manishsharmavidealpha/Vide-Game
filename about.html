@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NextGenerationDev">
+    <title>Blackjack - Online Casino, Gambling & Betting HTML Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/flip.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== mouce area start here ========== -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- ========== mouce area end here ========== -->
+
+    <!-- ========== preloader area start here ========== -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+                    <img class="loading-logo" src="assets/images/preloader.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== preloader area end here ========== -->
+
+    <!-- menu area start here -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrp">
+                    <ul class="link-info">
+                        <li><a href="#0"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#0"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#0"><i class="fa-solid fa-rss"></i></a></li>
+                    </ul>
+                    <ul class="info">
+                        <li><i class="fa-solid fa-lock"></i> <a href="#0">Safe & Secure</a></li>
+                        <li><i class="fa-solid fa-headset"></i> <a href="contact.html">Support 24/7</a></li>
+                        <li class="pe-0"><i class="fa-solid fa-user"></i> <a href="login.html">Login</a> <span>/</span>
+                            <a href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-section">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo-menu">
+                        <a href="index-2.html" class="logo">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header-bar d-xl-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-btn-wrapper"></div>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="index-2.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="tournament.html">Tournament</a>
+                        </li>
+                        <li>
+                            <a href="#">Games <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="game.html">All Games</a></li>
+                                <li><a href="game2.html">Popular Games</a></li>
+                                <li><a href="game3.html">Latest Games</a></li>
+                                <li><a href="game4.html">Recommended Games</a></li>
+                                <li><a href="game5.html">Upcoming Games</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="team.html">Dealer</a></li>
+                                <li><a href="team-single.html">Dealer Single</a></li>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="faq.html">FQA</a></li>
+                                <li><a href="error-404.html">404 Error</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Shop <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop Page</a></li>
+                                <li><a href="shop-single.html">Shop Single</a></li>
+                                <li><a href="checkout.html">Checkout Page</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">blog <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="m-0">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <div class="cart-search d-flex align-items-center">
+                            <a href="#" class="search-trigger"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="icon-wrp">
+                                <a href="#" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="cart-menu-item">
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm1.png" alt="image">
+                                        <div class="product-price-menu">$12.99</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x heading-color color-hover"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm2.png" alt="image">
+                                        <div class="product-price-menu">$50.00</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x color-hover heading-color"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="product py-2 pe-4 ps-2 d-flex justify-content-between align-items-center">
+                                        <img src="assets/images/shop/sm3.png" alt="image">
+                                        <div class="product-price-menu">$44.99</div>
+                                        <div class="product-removal">
+                                            <button class="remove-product">
+                                                <i class="fa-solid fa-x color-hover heading-color"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <span class="float-end p-3 sm-font">Total Order = $102.99</span>
+                                    <div class="btn-wrp">
+                                        <a class="checkout-btn" href="checkout.html">
+                                            Check Out
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- menu area end here -->
+
+    <!-- fullscreen search bar area start here -->
+    <div class="search-wrap">
+        <div class="search-inner">
+            <i class="fas fa-times search-close" id="search-close"></i>
+            <div class="search-cell">
+                <form method="get">
+                    <div class="search-field-holder">
+                        <input type="search" class="main-search-input" placeholder="Type & Hit Enter">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- fullscreen search bar area end here -->
+
+    <!-- ========== inner banner area start here ========== -->
+    <section class="inner-banner sub-banner">
+        <div class="container">
+            <div class="content">
+                <h2>About Us</h2>
+                <div class="breadcrumb-list">
+                    <span><a href="index-2.html" class="primary-hover">Home</a></span>
+                    <span class="fw-bold">/</span>
+                    <span class="primary-color">About</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== inner banner area end here ========== -->
+
+    <!-- ========== about area start here ========== -->
+    <section class="about bg-image bg-none section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2 class="gradient-font">About Casino Platform</h2>
+                        <p class="text-justify mb-4">Online casinos have become a popular form of entertainment for
+                            people
+                            all over the world. These platforms offer a wide
+                            range of games from traditional casino games like poker blackjack and roulette to more
+                            modern games like video slots
+                            and virtual sports betting.</p>
+                        <p class="text-justify"> These platforms offer a wide
+                            range of games from traditional casino games like poker blackjack and roulette to more
+                            modern games like video slots
+                            and virtual sports betting. Online casinos have the advantage of being accessible from
+                            anywhere at any time making
+                            them a convenient option for many players.</p>
+                        <a href="#0" class="custom-btn mt-4">read more</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img"><img src="assets/images/about/2.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== about area end here ========== -->
+
+    <!-- ========== choose area start here ========== -->
+    <section class="choose bg-image sub-bg section-padding">
+        <div class="container">
+            <div class="section-heading text-center center">
+                <h2 class="gradient-font">why play with us</h2>
+                <p class="pb-3">These platforms offer a wide
+                    range of games from traditional casino games like poker blackjack and roulette to more
+                    modern games like video slots.</p>
+                <!-- <a href="#0" class="custom-btn mt-4">Know more</a> -->
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="row g-0 pt-4">
+                        <div class="col-md-6">
+                            <div class="choose-item">
+                                <div class="icon bor">
+                                    <img src="assets/images/icon/choose5.png" alt="icon">
+                                </div>
+                                <h3>opportunity to win big</h3>
+                                <p>One of the biggest advantages of online casinos is the wide range of games they like
+                                    poker blackjack offer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="choose-item">
+                                <div class="icon bor">
+                                    <img src="assets/images/icon/choose6.png" alt="icon">
+                                </div>
+                                <h3>learn new games</h3>
+                                <p>One of the biggest advantages of online casinos is the wide range of games they like
+                                    poker blackjack offer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="choose-item">
+                                <div class="icon bor">
+                                    <img src="assets/images/icon/choose7.png" alt="icon">
+                                </div>
+                                <h3>free play and bonuses</h3>
+                                <p>One of the biggest advantages of online casinos is the wide range of games they like
+                                    poker blackjack offer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="choose-item">
+                                <div class="icon bor">
+                                    <img src="assets/images/icon/choose8.png" alt="icon">
+                                </div>
+                                <h3>earning loyalty rewards</h3>
+                                <p>One of the biggest advantages of online casinos is the wide range of games they like
+                                    poker blackjack offer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="right img"><img src="assets/images/choose/2.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== choose area end here ========== -->
+
+    <!-- ========== how to play area start here ========== -->
+    <section class="process bg-image section-padding">
+        <div class="container">
+            <div class="section-heading center pb-50">
+                <h2 class="gradient-font">Steps to start the game</h2>
+                <p>Online casinos have the advantage of being accessible from
+                    anywhere at any time making
+                    them a convenient option for many players.</p>
+            </div>
+            <div class="row g-2 py-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon-wrp">
+                            <div class="icon">
+                                <span>01</span>
+                            </div>
+                        </div>
+                        <h3>Install our app</h3>
+                        <p>Online casinos offer a convenient and exciting way to enjoy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon-wrp">
+                            <div class="icon">
+                                <span>02</span>
+                            </div>
+                        </div>
+                        <h3>Sign Up & Login</h3>
+                        <p>Online casinos offer a convenient and exciting way to enjoy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon-wrp">
+                            <div class="icon">
+                                <span>03</span>
+                            </div>
+                        </div>
+                        <h3>Make a profile</h3>
+                        <p>Online casinos offer a convenient and exciting way to enjoy</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon-wrp">
+                            <div class="icon">
+                                <span>04</span>
+                            </div>
+                        </div>
+                        <h3>Choose Game & Play</h3>
+                        <p>Online casinos offer a convenient and exciting way to enjoy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-wrp text-center pt-50">
+                <a href="#0" class="custom-btn">Know more</a>
+            </div>
+        </div>
+    </section>
+    <!-- ========== how to play area end here ========== -->
+
+    <!-- ========== fanfact area start here ========== -->
+    <section class="fanfact bg-image section-padding">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/images/icon/fan1.png" alt="icon">
+                        </div>
+                        <span>$</span>
+                        <span class="count">59,659</span>
+                        <h3 class="primary-color">Today Win</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/images/icon/fan2.png" alt="icon">
+                        </div>
+                        <span class="count2">9,297</span>
+                        <h3 class="primary-color">Live Tournaments</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/images/icon/fan3.png" alt="icon">
+                        </div>
+                        <span class="count3">2,645</span>
+                        <h3 class="primary-color">Happy Winners</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/images/icon/fan4.png" alt="icon">
+                        </div>
+                        <span class="count4">928</span>
+                        <h3 class="primary-color">Online Players</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== fanfact area end here ========== -->
+
+    <!-- ========== team area start here ========== -->
+    <section class="team bg-image section-padding">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-heading pb-50">
+                        <h2 class="gradient-font">expert players</h2>
+                        <p class="text-justify pb-3">
+                            online casinos offer a convenient and exciting way to enjoy a wide range of casino games
+                            from anywhere in the world.
+                            With a vast selection of games, bonuses and promotions, and the ability to play 24/7, online
+                            casinos have become a
+                            popular choice for players looking for a fun and engaging way to gamble online.
+                        </p>
+                        <p class="text-justify">Online casinos have the advantage of being accessible online casinos
+                            offer a convenient and exciting way to enjoy a wide range of casino games
+                            from anywhere option for many players in the world. </p>
+                        <a href="#0" class="custom-btn mt-4">play with them</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="swiper pt-4 team-slide mb-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/1.png" alt="image">
+                                </div>
+                                <span>Id: q2y7d5p9x2t</span>
+                                <h3><a href="#0" class="primary-color">Stud Poker</a></h3>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/2.png" alt="image">
+                                </div>
+                                <span>Id: q5c8t9d8v3i</span>
+                                <h3><a href="#0" class="primary-color">Kevin Rivera</a></h3>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/3.png" alt="image">
+                                </div>
+                                <span>Id: y9u7i5k3y2z</span>
+                                <h3><a href="#0" class="primary-color">James Wilson
+                                    </a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper pt-4 team-slide2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/4.png" alt="image">
+                                </div>
+                                <span>Id: q7w9e2r5t3u</span>
+                                <h3><a href="#0" class="primary-color">Jessica Lee</a></h3>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/5.png" alt="image">
+                                </div>
+                                <span>Id: q2y7d5p9x2e</span>
+                                <h3><a href="#0" class="primary-color">Kawser Ahmed</a></h3>
+                            </div>
+                            <div class="swiper-slide item">
+                                <div class="img">
+                                    <img src="assets/images/team/6.png" alt="image">
+                                </div>
+                                <span>Id: x2y3q6i7k9y</span>
+                                <h3><a href="#0" class="primary-color">Alex Rony</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== team area end here ========== -->
+
+    <!-- ========== fqa area start here ========== -->
+    <section class="fqa bg-image section-padding sub-bg">
+        <div class="container">
+            <div class="section-heading center pb-50">
+                <h2 class="gradient-font">Frequently Asked Questions</h2>
+                <p>Online casinos have the advantage of being accessible from
+                    anywhere at any time making
+                    them a convenient option for many players.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="img">
+                        <img src="assets/images/fqa/1.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-wrapper mt-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What types of home cleaning services do you offer?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-justify">
+                                        Online casinos have become a popular form of entertainment for people all over
+                                        the world. These platforms offer a wide
+                                        range of games, from traditional casino games like poker, blackjack, and
+                                        roulette to more modern games like video slots
+                                        and virtual sports betting. Online casinos have the advantage of being
+                                        accessible from anywhere, at any time, making
+                                        them a convenient and attractive option for many players.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Are your cleaners trained and insured?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-justify">
+                                        Online casinos have become a popular form of entertainment for people all over
+                                        the world. These platforms offer a wide range of games, from traditional casino
+                                        games like poker, blackjack, and roulette to more modern games like video slots
+                                        and virtual sports betting. Online casinos have the advantage of being
+                                        accessible from anywhere, at any time, making them a convenient and attractive
+                                        option for many players.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What is your pricing structure for home cleaning services?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Online casinos have become a popular form of entertainment for people all over
+                                        the world. These platforms offer a wide range of games, from traditional casino
+                                        games like poker, blackjack, and roulette to more modern games like video slots
+                                        and virtual sports betting. Online casinos have the advantage of being
+                                        accessible from anywhere, at any time, making them a convenient and attractive
+                                        option for many players.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        How often should I schedule home cleaning services?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Online casinos have become a popular form of entertainment for people all over
+                                        the world. These platforms offer a wide range of games, from traditional casino
+                                        games like poker, blackjack, and roulette to more modern games like video slots
+                                        and virtual sports betting. Online casinos have the advantage of being
+                                        accessible from anywhere, at any time, making them a convenient and attractive
+                                        option for many players.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== fqa area end here ========== -->
+
+    <!-- ========== contact area start here ========== -->
+    <section class="contact section-padding bg-image">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="form-area">
+                        <div class="row g-3 mb-3">
+                            <div class="col-sm-6">
+                                <input type="text" placeholder="Name*">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="email" placeholder="Email*">
+                            </div>
+                        </div>
+                        <textarea placeholder="Enter your message"></textarea>
+                        <a href="#0" class="custom-btn mt-3">Submit Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2 class="gradient-font">join us for more updates</h2>
+                        <p class="text-justify">Online casinos have become a popular form of entertainment for people
+                            all over the world. These platforms offer a wide
+                            range of games from traditional casino games like poker blackjack and roulette.</p>
+                    </div>
+                    <div class="info mt-2">
+                        <ul>
+                            <li><i class="fa-solid fa-mobile-screen-button"></i> <a href="#0"
+                                    class="primary-hover">+0123
+                                    456 789</a></li>
+                            <li><i class="fa-regular fa-envelope"></i> <a href="#0"
+                                    class="primary-hover">example@example.com</a>
+                            </li>
+                            <li><i class="fa-solid fa-location-dot"></i> <a href="#0" class="primary-hover">+New Rose
+                                    Valley Park,
+                                    NYZ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== contact area end here ========== -->
+
+    <!-- ========== map area start here ========== -->
+    <section class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004082.928417291!2d-104.65713107818928!3d37.275578278180674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1651123503939!5m2!1sen!2sbd"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- ========== map area end here ========== -->
+
+    <!-- ========== info area start here ========== -->
+    <section class="info">
+        <div class="container">
+            <div class="item-wrp">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/call.png" alt="icon">
+                            <span>Call Now : +0123 456 789</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/mail.png" alt="icon">
+                            <span>Mail Us : example@example.com</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <img src="assets/images/icon/location.png" alt="icon">
+                            <span>Our Location : New Rose Valley Park, NYZ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== info area end here ========== -->
+
+    <!-- ========== footer area start here ========== -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="section-padding">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="item me-5 pe-3">
+                            <div class="title">
+                                <h4>About Us</h4>
+                            </div>
+                            <p class="text-justify">One of the biggest advantages of online casinos is the wide range of
+                                games they offer many type of
+                                casinos games may have a limited selection games the main parpose due to space
+                                constraints
+                            </p>
+                            <div class="follow pt-3">
+                                <span class="gradient-font">Follow :</span>
+                                <a href="#0"><img src="assets/images/icon/facebook.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/twiter.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/instagram.png" alt="facebook"></a>
+                                <a href="#0"><img src="assets/images/icon/linkdin.png" alt="facebook"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3">
+                        <div class="item">
+                            <div class="title">
+                                <h4>Quick Links</h4>
+                            </div>
+                            <ul class="link">
+                                <li><a href="#0">About Us</a></li>
+                                <li><a href="#0">Casino Games</a></li>
+                                <li><a href="#0">Tournaments</a></li>
+                                <li><a href="#0">Questions</a></li>
+                                <li><a href="#0">Recent Post</a></li>
+                                <li><a href="#0">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3">
+                        <div class="item">
+                            <div class="title">
+                                <h4>SUPPORTS</h4>
+                            </div>
+                            <ul class="link">
+                                <li><a href="#0">Game Settings</a></li>
+                                <li><a href="#0">Get the App</a></li>
+                                <li><a href="#0">Help & Support</a></li>
+                                <li><a href="#0">Accessibility</a></li>
+                                <li><a href="#0">Help Center 24/7</a></li>
+                                <li><a href="#0">Privacy & Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="item">
+                            <div class="title">
+                                <h4>NEWSLETTER</h4>
+                            </div>
+                            <p class="text-justify">Subscribe our online casino platfrom newsletter to get our latest
+                                update
+                                & news consectetur casinos have become a popular form of entertainment for people all
+                                over
+                                the world platforms offer a wide range of games
+                            </p>
+                            <div class="neswsletter mt-3">
+                                <input type="email" placeholder="Insert Your Email Address">
+                                <button><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text d-flex justify-content-between align-items-center">
+                <p>© 2023 - ALL RIGHTS RESERVED BY <a href="#0" class="primary-color">NEXTGENERATIONDEV</a></p>
+                <img src="assets/images/icon/payment.png" alt="payment">
+            </div>
+        </div>
+    </footer>
+    <!-- ========== footer area end here ========== -->
+
+    <!-- ========== back to top area start here ========== -->
+    <div class="scroll-up">
+        <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- ========== back to top area end here ========== -->
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/flip.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
